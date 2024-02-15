@@ -1,0 +1,23 @@
+# Tatted
+
+Tatted is an set of endpoints that allows users to sign-up, log-in,
+and update their user account while signed in. It also updates the user status once payment is confirmed from stripe.
+
+# Installation
+- Ensure that you have node.js installed.
+- Ensure you have a mongoDB atlas database set up.
+- Clone this repo.
+- Change into the folder's root directory. 
+- run `npm install` to install the directories.
+- Create an `.env` file.
+- Copy the `.env.example` data into the `.env` file.
+- Update the `.env` file with the necessary values.
+
+# Usage
+To use run the command `npm start`.
+
+# Roadmap
+- Document the endpoint using the OpenAPI specification
+- Arrange the codebase in the necessary folders once it starts to grow larger.
+- Write test
+- Containerise the application
